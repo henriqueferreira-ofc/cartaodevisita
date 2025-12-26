@@ -12,7 +12,7 @@ const FeaturedProperty: React.FC = () => {
   return (
     <div className="px-6 py-6 w-full">
       <h3 className="text-white text-xs uppercase tracking-widest font-semibold mb-3 border-l-2 border-gold pl-2">
-        Oportunidade do Mês
+        Oportunidades do Mês
       </h3>
       
       <div className="bg-black/30 rounded-xl overflow-hidden border border-white/10 group cursor-pointer hover:border-gold/30 transition-all duration-300">
