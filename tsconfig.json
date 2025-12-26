@@ -20,26 +20,10 @@
     "jsx": "react-jsx",
     "paths": {
       "@/*": [
-<<<<<<< HEAD
         "./src/*"
-=======
-<<<<<<< HEAD
-        "./*"
-=======
-        "./src/*"
->>>>>>> 4968055 (update)
->>>>>>> 389eb12 (update)
       ]
     },
     "allowImportingTsExtensions": true,
     "noEmit": true
   }
-<<<<<<< HEAD
 }
-=======
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 4968055 (update)
->>>>>>> 389eb12 (update)
