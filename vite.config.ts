@@ -21,7 +21,15 @@ export default defineConfig(({ mode }) => {
       },
       resolve: {
         alias: {
+<<<<<<< HEAD
           '@': path.resolve(__dirname, 'src'),
+=======
+<<<<<<< HEAD
+          '@': path.resolve(__dirname, '.'),
+=======
+          '@': path.resolve(__dirname, 'src'),
+>>>>>>> 4968055 (update)
+>>>>>>> 389eb12 (update)
         }
       }
     };
