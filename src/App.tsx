@@ -15,7 +15,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen w-full overflow-x-hidden flex justify-center items-start md:items-center py-4 sm:py-10">
+    <div className="relative min-h-screen w-full overflow-x-hidden flex justify-center items-start md:items-center px-3 py-3 sm:px-5 sm:py-8 md:py-10">
       
       {/* Background Layer with Dark Overlay */}
       <div className="fixed inset-0 z-0">
@@ -32,11 +32,11 @@ const App: React.FC = () => {
 
       {/* Main Content Card */}
       <div className={`
-        relative z-10 w-full max-w-[400px] px-4
+        relative z-10 w-full max-w-[420px] sm:max-w-[440px] md:max-w-[460px]
         transition-all duration-1000 ease-out transform
         ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}
       `}>
-        <GlassContainer className="w-full flex flex-col items-center min-h-[80vh]">
+        <GlassContainer className="w-full flex flex-col items-center min-h-[calc(100vh-24px)] sm:min-h-[80vh]">
           <ProfileHeader />
           <ActionGrid />
           <SaveContactButton />

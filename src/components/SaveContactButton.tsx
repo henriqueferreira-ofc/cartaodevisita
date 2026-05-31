@@ -6,14 +6,14 @@ const SaveContactButton: React.FC = () => {
   };
 
   return (
-    <div className="px-6 py-2 w-full">
+    <div className="px-5 sm:px-6 py-2 w-full">
       <button
         onClick={handleSave}
         className="
           w-full 
           bg-gold hover:bg-gold-light 
           text-black font-bold 
-          py-4 px-6 
+          py-4 px-5 sm:px-6 
           rounded-xl 
           shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:shadow-[0_0_30px_rgba(212,175,55,0.6)]
           flex items-center justify-center gap-3

@@ -13,7 +13,7 @@ const GlassContainer: React.FC<GlassContainerProps> = ({ children, className = '
       backdrop-blur-md 
       border border-white/20 
       shadow-2xl 
-      rounded-3xl 
+      rounded-[26px] sm:rounded-3xl
       overflow-hidden
       ${className}
     `}>

@@ -24,20 +24,20 @@ const actions: ActionButtonProps[] = [
     iconClass: 'fa-solid fa-globe',
     label: 'Portfólio',
     colorClass: 'text-purple-300',
-    onClick: () => window.open('https://www.henriqueportfolio.com/', '_blank'),
+    onClick: () => window.open('https://www.portfoliohenrique.com.br/', '_blank'),
   },
 ];
 
 const ActionGrid: React.FC = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 px-6 py-4 w-full">
+    <div className="grid grid-cols-2 gap-3 sm:gap-4 px-5 sm:px-6 py-4 w-full">
       {actions.map((action, index) => (
         <button
           key={index}
           onClick={action.onClick}
           className="
             flex flex-col items-center justify-center 
-            p-4 
+            min-h-[92px] p-4 
             bg-white/5 hover:bg-white/10 
             border border-white/10 hover:border-gold/50
             rounded-2xl 
